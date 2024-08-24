@@ -159,7 +159,6 @@ function SubBelanja() {
             />
           ) : null}
           <h3 className="text-xl font-bold">{selectedSubBelanja?.name}</h3>
-          <p>{totalItems}</p>
         </div>
         <div
           className={`flex flex-col flex-wrap gap-6 py-4 w-fit`}
