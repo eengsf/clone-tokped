@@ -19,7 +19,7 @@ function SubDaftarProduk({ value, more }: { value: string; more: boolean }) {
 
   // Mengatur data berdasarkan kondisi switch
   switch (value) {
-    case 'makanan-kering':
+    case 'makanan-ringan':
       slicedProd = prod.slice(0, 12);
       break;
     case 'for-you':
